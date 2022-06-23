@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-1 {
+    height: 250px;
+    width: 250px;
+    background: radial-gradient(#e66465, #9198e5);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-2 {
+    height: 250px;
+    width: 250px;
+    background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-3 {
+    height: 250px;
+    width: 250px;
+    background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-4 {
+    height: 250px;
+    width: 250px;
+    background-image: repeating-conic-gradient( from 3deg at 25% 25%, green, blue 2deg 5deg, green, yellow 15deg 18deg, green 20deg);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-5 {
+    height: 250px;
+    width: 250px;
+    background-image: radial-gradient(50% 50% at center, #c39f76 0% 80%, #0000 80% 100%);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-6 {
+    height: 250px;
+    width: 250px;
+    background: conic-gradient(red, orange, yellow, green, blue);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-7 {
+    height: 250px;
+    width: 250px;
+    background: conic-gradient(from 0.25turn at 50% 30%, #f69d3c, 10deg, #3f87a6, 350deg, #ebf8e1);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-8 {
+    height: 250px;
+    width: 250px;
+    background: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-9 {
+    height: 250px;
+    width: 250px;
+    background: conic-gradient( red 6deg, orange 6deg 18deg, yellow 18deg 45deg, green 45deg 110deg, blue 110deg 200deg, purple 200deg);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-10 {
+    height: 250px;
+    width: 250px;
+    background: conic-gradient(from 45deg, blue, red);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-11 {
+    height: 250px;
+    width: 250px;
+    background: repeating-conic-gradient( red 0%, yellow 15%, red 33%);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-12 {
+    height: 250px;
+    width: 250px;
+    background: repeating-conic-gradient( from 45deg at 10% 50%, brown 0deg 10deg, darkgoldenrod 10deg 20deg, chocolate 20deg 30deg);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-13 {
+    height: 250px;
+    width: 250px;
+    background: repeating-conic-gradient( from 3deg at 25% 25%, hsl(200, 100%, 50%) 0deg 15deg, hsl(200, 100%, 60%) 10deg 30deg);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-14 {
+    height: 250px;
+    width: 250px;
+    background: repeating-conic-gradient(red, orange, yellow, green, blue 50%);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-15 {
+    height: 250px;
+    width: 250px;
+    background: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);
+    border-radius: 4px;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-16 {
+    height: 250px;
+    width: 250px;
+    background: repeating-conic-gradient(from 0deg, red 0deg 30deg, yellow 30deg 60deg, blue 60deg 90deg);
+    border-radius: 50%;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-17 {
+    height: 250px;
+    width: 250px;
+    background: repeating-radial-gradient(red 0 8%, yellow 8% 16%, blue 16% 24%);
+    border-radius: 50%;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-18 {
+    height: 250px;
+    width: 250px;
+    background: conic-gradient(red 120deg, yellow 120deg 240deg, blue 240deg);
+    border-radius: 50%;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-19 {
+    height: 250px;
+    width: 250px;
+    background: radial-gradient(red 33%, yellow 33% 40%, blue 66%);
+    border-radius: 50%;
+    box-shadow: 6px 5px 10px 1px #111;
+}
+
+.box-20 {
+    height: 250px;
+    width: 250px;
+    background: repeating-radial-gradient(#a2a2a2, #e460b2 10%, #f34e62 15%);
+    border-radius: 50%;
+    box-shadow: 6px 5px 10px 1px #111;
+}
